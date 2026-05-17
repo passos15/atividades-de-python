@@ -4,7 +4,7 @@ def fatorial(n):
         return 1
 #Se o número for igual a 0 ou 1, retornará para 1; assim, o código não rodará sem parar.
     else:
-#Se o número for acima de 1, o fatorial será calculado.
+#Se o número for acima de 1, o fatorial será calculado e imprimido return.
         return n * fatorial(n-1)
 numero = int(input("Digite um número inteiro positivo para calcular o fatorial: "))
 #O if  servirá para mostrar que números negativos não tem fatorial.
