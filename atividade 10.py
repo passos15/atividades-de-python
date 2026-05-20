@@ -21,5 +21,4 @@ elif opcao == '2':
     print(f"{temp_f}°F é igual a {temp_c:.2f}°c.")
 else:
     print("opção inválida.")
-    #Caso a opção digitada pelo usuário não esteja no menu, imprimir essa mensagem.
-
+    #Caso a opção digitada pelo usuário não esteja no menu, imprimir essa mensagem. 
