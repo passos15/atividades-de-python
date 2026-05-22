@@ -1,4 +1,4 @@
-#Lista de compras.
+    #Lista de compras.
 lista = [] #Os colchetes indicam que os valores dentro deles pertencem a uma lista.
 
 while True:  #while True cria um loop infinito, ou seja, o código continuará se repetindo até encontrar um break, que encerra o loop.

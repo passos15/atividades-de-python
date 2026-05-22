@@ -1,3 +1,4 @@
+#Agenda de contatos.
 agenda = {}
 #Aqui estamos criando um dicionário.
 
