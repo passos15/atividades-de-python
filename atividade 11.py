@@ -1,10 +1,7 @@
 #Leitor de arquivo de texto.
-def ler_arquivo(nome_arquivo):
-#O def é usado para criar funções.
-    try:
-    #Permite testar os códigos em busca de erro.
-        with open(nome_arquivo,'r', encoding='UTF-8')as arquivo:
-        #Abre o arquivo em modo leitura e lê usando UTF-8 (lê o texto, evitando problemas com acentos);
+def ler_arquivo(nome_arquivo): #O def é usado para criar funções.
+    try: #Permite testar os códigos em busca de erro.
+        with open(nome_arquivo,'r', encoding='UTF-8')as arquivo: #Abre o arquivo em modo leitura e lê usando UTF-8 (lê o texto, evitando problemas com acentos);
             conteudo = arquivo.read() #Guardará todo o conteúdo do arquivo na variável 'conteudo'.
             print("\n====Conteúdo do Arquivo====")
             print(f"{conteudo}")

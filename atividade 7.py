@@ -6,6 +6,7 @@ def contador_vogais(texto): #O def é usado para criar uma função, 'contador_v
         if letra in vogais: #Verifica se alguma das letras verificadas pelo for é uma vogal.
             contador =+ #Toda vez que uma vogal for encontrada o contador adicionara um.
     return contador #Quando todas as letras são verificadas é retornado a quantidade de vogais encontradas.
+
 frese = input("Digite uma frase: ")
 num = contador_vogais(frese) #A função é chamada e a frase é enviada para a função.
 print(f"A frase possui {num} vogais.")
