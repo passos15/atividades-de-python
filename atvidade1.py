@@ -1,4 +1,5 @@
 nome = input('Digite o seu nome: ')
+idade = input('Digite sua idade: ')
 print(f'olá {nome}! Bem-vindo(a) ao mundo Python !') 
 #'nome' é uma variável usada para guardar o valor digitado pelo usuário.
 #input(), é usado para pedir ao usuário que digite uma informação.
