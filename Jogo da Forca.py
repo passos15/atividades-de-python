@@ -84,7 +84,7 @@ class JogoDaForca:
             else:
                 exibicao +="_" #Um exemplo de como ficará apos a formatação → P _ T _ _ _
         return exibicao.strip() #Retorna a palavra formatada.
-        
+        ''
     def _desenhar_forca(self): #Método responsável por mostrar o desenho.
         print(self.estado_forca[6-self.tentativas_restantes])
 

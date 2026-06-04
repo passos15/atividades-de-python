@@ -1,3 +1,4 @@
+#Web Scraper
 import requests #Requests é a maneira mais convencional de lidar com solicitações Web em Python.
 from bs4 import BeautifulSoup #Instrução padrão do Python para importar a classe principal da biblioteca Beautiful Soup 4, que é utilizada para fazer a leitura e a análise de documentos HTML e XML.
 
